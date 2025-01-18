@@ -1,0 +1,24 @@
+{
+  "originHash" : "91ea4b5479f94f75cf67043e9713d9926358a20e5170e29e0789704852d8142a",
+  "pins" : [
+    {
+      "identity" : "swift-image-downloader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ratnesh-jain/swift-image-downloader",
+      "state" : {
+        "revision" : "5b5c17242f2c83a6da768dec82e44a42b6153456",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "swiftui-fetching-view",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ratnesh-jain/swiftui-fetching-view",
+      "state" : {
+        "revision" : "13839a30bdbeadfe96a7e5261bf9a63d65f58ead",
+        "version" : "0.1.4"
+      }
+    }
+  ],
+  "version" : 3
+}
