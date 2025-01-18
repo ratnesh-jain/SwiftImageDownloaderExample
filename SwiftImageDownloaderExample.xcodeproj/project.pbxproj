@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0342486B2D3BCCB9002A832B /* AppAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0342486A2D3BCCB9002A832B /* AppAsyncImage */; };
+		0342486D2D3BCCB9002A832B /* AsyncImageView in Frameworks */ = {isa = PBXBuildFile; productRef = 0342486C2D3BCCB9002A832B /* AsyncImageView */; };
+		0342486F2D3BCCB9002A832B /* ImageDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 0342486E2D3BCCB9002A832B /* ImageDownloader */; };
 		03E3E1B02D3B9D31000F97FF /* AppAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1AF2D3B9D31000F97FF /* AppAsyncImage */; };
 		03E3E1B22D3B9D31000F97FF /* AsyncImageView in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1B12D3B9D31000F97FF /* AsyncImageView */; };
 		03E3E1B42D3B9D31000F97FF /* ImageDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1B32D3B9D31000F97FF /* ImageDownloader */; };
-		03E3E1C32D3BB2D4000F97FF /* AppAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1C22D3BB2D4000F97FF /* AppAsyncImage */; };
-		03E3E1C52D3BB2D4000F97FF /* AsyncImageView in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1C42D3BB2D4000F97FF /* AsyncImageView */; };
-		03E3E1C72D3BB2D4000F97FF /* ImageDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1C62D3BB2D4000F97FF /* ImageDownloader */; };
+		03E3E1CA2D3BB6F2000F97FF /* AppAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1C92D3BB6F2000F97FF /* AppAsyncImage */; };
+		03E3E1CC2D3BB6F2000F97FF /* AsyncImageView in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1CB2D3BB6F2000F97FF /* AsyncImageView */; };
+		03E3E1CE2D3BB6F2000F97FF /* ImageDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 03E3E1CD2D3BB6F2000F97FF /* ImageDownloader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +36,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E3E1B22D3B9D31000F97FF /* AsyncImageView in Frameworks */,
-				03E3E1C72D3BB2D4000F97FF /* ImageDownloader in Frameworks */,
+				03E3E1CE2D3BB6F2000F97FF /* ImageDownloader in Frameworks */,
+				0342486D2D3BCCB9002A832B /* AsyncImageView in Frameworks */,
 				03E3E1B42D3B9D31000F97FF /* ImageDownloader in Frameworks */,
 				03E3E1B02D3B9D31000F97FF /* AppAsyncImage in Frameworks */,
-				03E3E1C52D3BB2D4000F97FF /* AsyncImageView in Frameworks */,
-				03E3E1C32D3BB2D4000F97FF /* AppAsyncImage in Frameworks */,
+				03E3E1CC2D3BB6F2000F97FF /* AsyncImageView in Frameworks */,
+				0342486B2D3BCCB9002A832B /* AppAsyncImage in Frameworks */,
+				0342486F2D3BCCB9002A832B /* ImageDownloader in Frameworks */,
+				03E3E1CA2D3BB6F2000F97FF /* AppAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +89,12 @@
 				03E3E1AF2D3B9D31000F97FF /* AppAsyncImage */,
 				03E3E1B12D3B9D31000F97FF /* AsyncImageView */,
 				03E3E1B32D3B9D31000F97FF /* ImageDownloader */,
-				03E3E1C22D3BB2D4000F97FF /* AppAsyncImage */,
-				03E3E1C42D3BB2D4000F97FF /* AsyncImageView */,
-				03E3E1C62D3BB2D4000F97FF /* ImageDownloader */,
+				03E3E1C92D3BB6F2000F97FF /* AppAsyncImage */,
+				03E3E1CB2D3BB6F2000F97FF /* AsyncImageView */,
+				03E3E1CD2D3BB6F2000F97FF /* ImageDownloader */,
+				0342486A2D3BCCB9002A832B /* AppAsyncImage */,
+				0342486C2D3BCCB9002A832B /* AsyncImageView */,
+				0342486E2D3BCCB9002A832B /* ImageDownloader */,
 			);
 			productName = SwiftImageDownloaderExample;
 			productReference = 033D590A2D3B795800CAFC75 /* SwiftImageDownloaderExample.app */;
@@ -116,7 +125,7 @@
 			mainGroup = 033D59012D3B795800CAFC75;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				03E3E1C12D3BB2D4000F97FF /* XCRemoteSwiftPackageReference "swift-image-downloader" */,
+				034248692D3BCCB9002A832B /* XCRemoteSwiftPackageReference "swift-image-downloader" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 033D590B2D3B795800CAFC75 /* Products */;
@@ -365,17 +374,32 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		03E3E1C12D3BB2D4000F97FF /* XCRemoteSwiftPackageReference "swift-image-downloader" */ = {
+		034248692D3BCCB9002A832B /* XCRemoteSwiftPackageReference "swift-image-downloader" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ratnesh-jain/swift-image-downloader";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.2;
+				minimumVersion = 0.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0342486A2D3BCCB9002A832B /* AppAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034248692D3BCCB9002A832B /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
+			productName = AppAsyncImage;
+		};
+		0342486C2D3BCCB9002A832B /* AsyncImageView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034248692D3BCCB9002A832B /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
+			productName = AsyncImageView;
+		};
+		0342486E2D3BCCB9002A832B /* ImageDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034248692D3BCCB9002A832B /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
+			productName = ImageDownloader;
+		};
 		03E3E1AF2D3B9D31000F97FF /* AppAsyncImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppAsyncImage;
@@ -388,19 +412,16 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = ImageDownloader;
 		};
-		03E3E1C22D3BB2D4000F97FF /* AppAsyncImage */ = {
+		03E3E1C92D3BB6F2000F97FF /* AppAsyncImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03E3E1C12D3BB2D4000F97FF /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
 			productName = AppAsyncImage;
 		};
-		03E3E1C42D3BB2D4000F97FF /* AsyncImageView */ = {
+		03E3E1CB2D3BB6F2000F97FF /* AsyncImageView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03E3E1C12D3BB2D4000F97FF /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
 			productName = AsyncImageView;
 		};
-		03E3E1C62D3BB2D4000F97FF /* ImageDownloader */ = {
+		03E3E1CD2D3BB6F2000F97FF /* ImageDownloader */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03E3E1C12D3BB2D4000F97FF /* XCRemoteSwiftPackageReference "swift-image-downloader" */;
 			productName = ImageDownloader;
 		};
 /* End XCSwiftPackageProductDependency section */
